@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f6f6f8;
+}
+
+a {
+  color: #c60021;
+  text-decoration: none;
+}
+
+button {
+  width: 90px;
+  height: 46px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #a4a4a4;
+  color: White;
+  margin: 0px 10px 0px 0px;
+}
+
+button:disabled {
+  background-color: #e3e3e3;
+  color: #ccc;
+}
+
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #e3e3e3;
+}
